@@ -1,12 +1,23 @@
 import React from "react";
-import ImageUploader from "./componentes/CargadorImagen";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from "./paginas/Home";
+import Contacto from "./paginas/Contacto";
+
 
 function App() {
   return (
-    <div style={{ textAlign: "center" }}>
-      <h1>Cargador de Imagen en React</h1>
-      <ImageUploader />
-    </div>
+    
+    <Router>
+      <nav style={{ padding: "10px", background: "#eee" }}>
+        <Link to="/" style={{ marginRight: "10px" }}>Inicio</Link>
+        <Link to="/contacto">Contacto</Link>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contacto" element={<Contacto />} />
+      </Routes>
+    </Router>
   );
 }
 
