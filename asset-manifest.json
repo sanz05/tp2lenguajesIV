@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tp2lenguajesIV/static/css/main.e6c13ad2.css",
-    "main.js": "/tp2lenguajesIV/static/js/main.45af79fc.js",
+    "main.js": "/tp2lenguajesIV/static/js/main.a61b8f42.js",
     "static/js/453.944fba58.chunk.js": "/tp2lenguajesIV/static/js/453.944fba58.chunk.js",
     "index.html": "/tp2lenguajesIV/index.html",
     "main.e6c13ad2.css.map": "/tp2lenguajesIV/static/css/main.e6c13ad2.css.map",
-    "main.45af79fc.js.map": "/tp2lenguajesIV/static/js/main.45af79fc.js.map",
+    "main.a61b8f42.js.map": "/tp2lenguajesIV/static/js/main.a61b8f42.js.map",
     "453.944fba58.chunk.js.map": "/tp2lenguajesIV/static/js/453.944fba58.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.45af79fc.js"
+    "static/js/main.a61b8f42.js"
   ]
 }
